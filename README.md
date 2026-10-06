@@ -26,6 +26,8 @@ lab05_reproducibilidad/
 
 Entorno de referencia: terminal Linux con Docker Engine 24 o superior y Python 3.12 (GitHub Codespaces o Google Cloud Shell).
 
+En VS Code o Codespaces, si `docker` no se reconoce, reconstruye el contenedor de desarrollo para aplicar la característica `docker-in-docker` definida en `.devcontainer/devcontainer.json`. Después, comprueba la instalación con `docker --version`.
+
 ```bash
 docker build --tag lab05-viajes:1.0 .
 docker run --rm --volume "$(pwd)/salidas:/app/salidas" lab05-viajes:1.0
