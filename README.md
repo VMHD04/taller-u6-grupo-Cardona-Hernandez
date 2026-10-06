@@ -58,3 +58,7 @@ Reproducción exacta: 3 de 3 salidas coinciden.
 | matplotlib | 3.9.2 |
 
 Fecha de referencia: septiembre de 2026. Las versiones se fijan en `requirements.txt`; toda actualización debe registrarse allí y validarse con `./reproducir.sh`.
+
+## Prueba Jersson Cardona
+
+1
